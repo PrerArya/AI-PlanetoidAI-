@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 21
+names: ['Badminton', 'Bottle', 'Box', 'Cake', 'Calender', 'Cat', 'Clock', 'Closet', 'Comb', 'Flower Pot', 'Fridge', 'Glasses', 'Handbag', 'Laptop', 'Mobile', 'Packet', 'Pillow', 'Stool', 'Switch Board', 'Tshirt', 'hair Dryer']
+
+roboflow:
+  workspace: prerna
+  project: custom-data-r5cse
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/prerna/custom-data-r5cse/dataset/1
